@@ -5,7 +5,7 @@
 //  Created by Oleksii Voitenko on 27.10.2021.
 //
 
-import RIBs
+import ModernRIBs
 
 protocol RootDependency: MoviesDependency, ActorsDependency {
     var viewController: RootViewController { get }

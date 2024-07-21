@@ -5,8 +5,7 @@
 //  Created by Oleksii Voitenko on 20.11.2021.
 //
 
-import RIBs
-import RxSwift
+import ModernRIBs
 
 protocol DetailsNavigationRouting: ViewableRouting {
     func setMovieDetails(movie: Movie)

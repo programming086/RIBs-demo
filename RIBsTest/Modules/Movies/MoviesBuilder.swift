@@ -5,7 +5,7 @@
 //  Created by Oleksii Voitenko on 28.10.2021.
 //
 
-import RIBs
+import ModernRIBs
 
 protocol MoviesDependency: ListDependency, DetailsNavigationDependency {
     var dataManager: DataManager { get }

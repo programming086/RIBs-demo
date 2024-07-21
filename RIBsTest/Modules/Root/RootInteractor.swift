@@ -5,8 +5,7 @@
 //  Created by Oleksii Voitenko on 27.10.2021.
 //
 
-import RIBs
-import RxSwift
+import ModernRIBs
 
 protocol RootRouting: ViewableRouting {
     func routeToMovies()

@@ -5,7 +5,7 @@
 //  Created by Oleksii Voitenko on 28.10.2021.
 //
 
-import RIBs
+import ModernRIBs
 
 protocol MoviesInteractable: Interactable, ListListener, DetailsNavigationListener {
     var router: MoviesRouting? { get set }

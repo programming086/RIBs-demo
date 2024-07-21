@@ -5,8 +5,7 @@
 //  Created by Oleksii Voitenko on 20.11.2021.
 //
 
-import RIBs
-import RxSwift
+import ModernRIBs
 import UIKit
 
 protocol ActorDetailsPresentableListener: AnyObject {

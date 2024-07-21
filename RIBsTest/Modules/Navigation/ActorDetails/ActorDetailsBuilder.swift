@@ -5,7 +5,7 @@
 //  Created by Oleksii Voitenko on 20.11.2021.
 //
 
-import RIBs
+import ModernRIBs
 
 protocol ActorDetailsDependency: Dependency {
     var dataManager: DataManager { get }

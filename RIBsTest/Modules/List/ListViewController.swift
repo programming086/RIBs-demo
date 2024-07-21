@@ -5,8 +5,7 @@
 //  Created by Oleksii Voitenko on 28.10.2021.
 //
 
-import RIBs
-import RxSwift
+import ModernRIBs
 import UIKit
 
 protocol ListPresentableListener: AnyObject {
