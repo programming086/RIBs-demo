@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21F386AA2C4CB69F00651C1A /* DetailsNavigationComponent+MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F386A92C4CB69F00651C1A /* DetailsNavigationComponent+MovieDetails.swift */; };
 		44747F9F481158DA9447CC03 /* Pods_RIBsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8538032668E0B534765A55 /* Pods_RIBsTest.framework */; };
 		E7B5A51B27281F09006A4ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5A51A27281F09006A4ADA /* AppDelegate.swift */; };
 		E7B5A51D27281F09006A4ADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5A51C27281F09006A4ADA /* SceneDelegate.swift */; };
@@ -50,7 +49,6 @@
 
 /* Begin PBXFileReference section */
 		0DA73EDFEFFA0A09F0106402 /* Pods-RIBsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIBsTest.debug.xcconfig"; path = "Target Support Files/Pods-RIBsTest/Pods-RIBsTest.debug.xcconfig"; sourceTree = "<group>"; };
-		21F386A92C4CB69F00651C1A /* DetailsNavigationComponent+MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailsNavigationComponent+MovieDetails.swift"; sourceTree = "<group>"; };
 		3A8538032668E0B534765A55 /* Pods_RIBsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RIBsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DDBCBE953CF1946A91029D /* Pods-RIBsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIBsTest.release.xcconfig"; path = "Target Support Files/Pods-RIBsTest/Pods-RIBsTest.release.xcconfig"; sourceTree = "<group>"; };
 		E7B5A51727281F09006A4ADA /* RIBsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RIBsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -285,7 +283,6 @@
 				E7B5C83E2748F9EE006485AB /* DetailsNavigationRouter.swift */,
 				E7B5C83F2748F9EE006485AB /* DetailsNavigationViewController.swift */,
 				E7B5C8402748F9EE006485AB /* DetailsNavigationBuilder.swift */,
-				21F386A92C4CB69F00651C1A /* DetailsNavigationComponent+MovieDetails.swift */,
 				E7B5C8412748F9EE006485AB /* DetailsNavigationInteractor.swift */,
 			);
 			path = DetailsNavigation;
@@ -432,7 +429,6 @@
 				E7B5A5452729B39D006A4ADA /* RootRouter.swift in Sources */,
 				E7B5C8442748F9EE006485AB /* DetailsNavigationBuilder.swift in Sources */,
 				E7B5A55D272B0695006A4ADA /* ActorsBuilder.swift in Sources */,
-				21F386AA2C4CB69F00651C1A /* DetailsNavigationComponent+MovieDetails.swift in Sources */,
 				E7B5A5482729B39D006A4ADA /* RootInteractor.swift in Sources */,
 				E7B5C83D2748F9DE006485AB /* MovieDetailsInteractor.swift in Sources */,
 				E7B5A51D27281F09006A4ADA /* SceneDelegate.swift in Sources */,

@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             )
         ).build()
         self.launchRouter = launchRouter
-        launchRouter.launchFromWindow(window)
+        launchRouter.launch(from: window)
         self.window = window
     }
 

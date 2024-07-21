@@ -1,20 +1,26 @@
 PODS:
-  - RIBs (0.9.1):
-    - RxSwift (~> 4.0)
-  - RxSwift (4.5.0)
+  - RIBs (0.16.3):
+    - RxRelay (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
 
 DEPENDENCIES:
   - RIBs
 
 SPEC REPOS:
-  trunk:
-    - RIBs
+  https://github.com/CocoaPods/Specs.git:
+    - RxRelay
     - RxSwift
+  https://github.com/rbrovko/specs.git:
+    - RIBs
 
 SPEC CHECKSUMS:
-  RIBs: 879184fbca567425c488d6b3d14a9c5abfbf9d47
-  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  RIBs: 26e9b310e58a59cc906dc4dc479a3150d51601e3
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
 
-PODFILE CHECKSUM: c4f36a92964730e154d14ed12a33bf1abd7cc499
+PODFILE CHECKSUM: 2f0d2f499e76a97045a992985ca4427ceada0c60
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.15.2
